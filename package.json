@@ -1,0 +1,17 @@
+{
+  "name": "discord-ticketsystem-bot",
+  "version": "1.0.0",
+  "description": "Ein umfangreiches Discord Ticketsystem mit MongoDB und schöner UI.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^17.2.1",
+    "mongodb": "^5.7.0",
+    "node-fetch": "^2.6.7"
+  }
+}
