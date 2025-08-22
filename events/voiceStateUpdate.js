@@ -27,7 +27,6 @@ module.exports = {
             });
             // User in neuen Channel verschieben
             await newState.setChannel(voiceChannel);
-            await client.user.joinChannel(voiceChannel)
             // Speichere Zuordnung in DB
             if (db) await db.collection('voiceRooms').insertOne({
                 userId: user.id,
@@ -81,3 +80,4 @@ module.exports = {
         }
     }
 };
+
